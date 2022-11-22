@@ -1,0 +1,5 @@
+const navbar = document.querySelector(".navbar")
+console.log(navbar)
+const openmenu = document.getElementById("menu")
+console.log(openmenu)
+console.log("hello")
