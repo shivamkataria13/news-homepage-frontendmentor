@@ -1,5 +1,22 @@
 const navbar = document.querySelector(".navbar")
-console.log(navbar)
 const openmenu = document.getElementById("menu")
-console.log(openmenu)
-console.log("hello")
+const closemenu = document.getElementById("menu-close")
+
+
+openmenu.addEventListener("click", () => {
+    navbar.classList.add("open")
+} )
+
+closemenu.addEventListener("click", () => {
+    navbar.classList.remove("open")
+} )
+
+
+
+
+
+
+
+
+
+
